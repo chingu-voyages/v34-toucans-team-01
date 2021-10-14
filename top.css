@@ -1,0 +1,92 @@
+body {
+    background-color: #FFFAE2;
+    margin: auto 0;
+    text-align: center;
+
+}
+
+button {
+    font-size: 20px;
+    border-radius: 40px;
+    width: 219px;
+    height: 66px;
+}
+
+/* navbar style*/
+
+.login {
+    color: #FFFFFF;
+    border: 2px solid #F8CF26;
+    box-sizing: border-box;
+    background: #F8CF26;
+    border-radius: 40px;
+}
+
+.signin {
+    margin-left: 10px;
+    color: #F8CF26;
+    background: #FFFFFF;
+    border: 2px solid #F8CF26;
+    box-sizing: border-box;
+    border-radius: 40px;
+}
+
+
+.nabvar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    box-shadow: 0 0 4px gray;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    font-size: 26px;
+    margin-left: 20px;
+    color: #614A4A;
+    font-family: 'Ribeye', cursive;
+}
+
+/* search-box */
+
+.search_container{
+    background-color: #fff;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.24);
+    padding: 3px 10px;
+    height: 3.3em;
+    width: 500px;
+    overflow: hidden;
+    box-sizing: border-box;
+    box-shadow: 4px 5px 7px rgba(0, 0, 0, 0.15);
+    border-radius: 40px;
+  }
+  .search_container input[type="text"]{
+    border: none;
+    height: 3.0em;
+  }
+  .search_container input[type="text"]:focus {
+    outline: 0;
+  }
+  .search_container input[type="submit"]{
+    cursor: pointer;
+    font-family: FontAwesome;
+    font-size: 1.3em;
+    border: none;
+    background: white;
+    color: gray;
+    position: absolute;
+    width: 2.5em;
+    height: 3.0em;
+    right: 0;
+    top: -10px;
+    outline : none;
+  }
