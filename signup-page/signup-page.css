@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  border: none;
+}
+
+.form-container {
+  margin: 5em auto;
+  width: 30em;
+  padding: 2em;
+  border-radius: 1em;
+  background-color: #eee;
+}
+
+.form-control input {
+  height: 3em;
+  border-radius: 0.5rem;
+  padding: 1.3em;
+  width: 100%;
+  margin-top: 0.5em;
+}
+
+.form-container button {
+  height: 4em;
+  text-align: center;
+}
+
+.form-group {
+  text-decoration: none;
+  padding: 1em;
+  margin-bottom: 0.25em;
+}
+
+.button {
+  background-color: #eda63d;
+  color: white;
+  border: none;
+  padding: 1.5em;
+  border-radius: 0.25em;
+  font-weight: bold;
+}
